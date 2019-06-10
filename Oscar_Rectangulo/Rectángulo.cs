@@ -104,4 +104,19 @@ namespace Oscar_Rectangulo
                 return Perimetro.ToString();
             }
             set
-            
+            {
+                int per = (2 * (int.Parse(x1))) + (2 * int.Parse(y1));
+                Distancia = per.ToString();
+                OnPropertyChanged("Perimetro");
+            }
+
+        }
+        private void OnPropertyChanged(string property)
+        {
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(property));
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+    }
+}
