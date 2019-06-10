@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscar_Rectangulo", "Oscar_Rectangulo\Oscar_Rectangulo.csproj", "{EBF589F9-5781-4152-9CEC-FFA66767454B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBF589F9-5781-4152-9CEC-FFA66767454B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF589F9-5781-4152-9CEC-FFA66767454B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF589F9-5781-4152-9CEC-FFA66767454B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF589F9-5781-4152-9CEC-FFA66767454B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFD68ECF-1499-4F5F-839D-BD6415148A7C}
+	EndGlobalSection
+EndGlobal
