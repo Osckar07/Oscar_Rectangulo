@@ -20,9 +20,12 @@ namespace Oscar_Rectangulo
     /// </summary>
     public partial class MainWindow : Window
     {
+        public Rectángulo Rectangulo { get; set; }
         public MainWindow()
         {
             InitializeComponent();
+            Rectangulo = new Rectángulo { x1 = "5", x2 = "5", y1 = "3", y2 = "3" };
+            this.DataContext = Rectangulo;
         }
     }
 }
